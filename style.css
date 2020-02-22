@@ -1,0 +1,41 @@
+body {
+  background: url('assets/TexturesCom_MarbleBase0059_1_seamless_S.png') repeat !important;
+}
+
+.img-article {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.img-overlay {
+  width: 100%;
+  position: relative;
+  bottom: 80px;
+  height: 0;
+}
+
+.img-overlay-h1 {
+  position: relative;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.brand {
+  width: 100% !important;
+}
+
+/* Using important to override bootstrap default/ */
+/* For BIG SCREEN YES */
+@media screen and (min-width: 768px) {
+  .brand {
+    width: 200px !important;
+  }
+
+  .img-article {
+    margin: 0 20px 20px 0;
+    max-width: initial !important;
+    height: initial !important;
+    width: initial;
+  }
+}
